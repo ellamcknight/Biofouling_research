@@ -30,7 +30,15 @@ To correct the salinity data I modelled salinity over time, extracted the residu
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/residuals.png?raw=true)
 
 ## Data Preparation
+The measured abiotic parameters were organized into the periods between each point of sampling (when each photograph was taken). The parameters were calculated as: 
+- total amount of rain
+- maximum temperature
+- minimum salinity (minimum residual salinity)
+  
+Then the difference between the time periods for these factors were calculated. This metric was used to indicate whether large increases or decreases occurred leading up to the point of photographing.  Some data was missing due to errors in the sampling metres and this was made as NA (see script).
 
+Below shows the data for Queen Anne's Battery. Sample points plus the calculated measures and then the differences that occurred between them.
+![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Environs_differenced.png?raw=true)
 
 
 
