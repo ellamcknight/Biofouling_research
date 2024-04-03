@@ -51,8 +51,13 @@ Using ImageJ software, photographs were analysed to identify species' spatial co
 
 To explore relative differences in the response of species to environmental fluctuations, species percentage cover was standardised and scaled according to their maximum.
 
+### Data Preparation Steps
+- created a separate data frame for each site
+- converted into a long data frame with species and per cent cover in single columns
+- calculated the scaled percentage cover for each species.
+- classified their native/NNS status
 
-
+Here is a visual of the raw data
 
 
 
