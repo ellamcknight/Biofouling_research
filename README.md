@@ -45,6 +45,13 @@ Finally, additional columns were added to this data frame. Date, site etc
   month? season? add cols? row 332
 
 
+## Biological data
+
+Using ImageJ software, photographs were analysed to identify species' spatial coverage.  Sessile organisms were identified to the lowest taxonomic level (predominantly to species level, but if not possible, to genus) and quantified by percentage cover for every individual (solitary taxa) or colony (colonial taxa) occurring in each panel. Species were identified as native or non-native to the region following the World Register of Introduced Marine Species [WRiMS](https://www.marinespecies.org/introduced/) and literature sources. We were unable to classify Ciona spp. as native or non-native due to overlap between the native species Ciona intestinals and the introduced Ciona robusta in this area of their geographical distributions - differentiating between the two species requires genetic analyses and / or dissections. Colonies or individuals that were heavily overgrown and clearly smothered by other encrusting taxa were assumed to be non-functional and were not counted. However, due to the 3-dimensional nature of the panels some percentage cover exceeded 100.
+
+To explore relative differences in the response of species to environmental fluctuations, species percentage cover was standardised and scaled according to their maximum.
+
+
 
 
 
