@@ -41,6 +41,9 @@ Below shows the data for Queen Anne's Battery. Sample points plus the calculated
 
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Environs_differenced.png?raw=true)
 
+Finally, additional columns were added to this data frame. Date, site etc
+  month? season? add cols? row 332
+
 
 
 
