@@ -47,7 +47,7 @@ Finally, additional columns were added to this data frame. Date, site etc
 
 ## Biological data
 
-Using ImageJ software, photographs were analysed to identify species' spatial coverage.  Sessile organisms were identified to the lowest taxonomic level (predominantly to species level, but if not possible, to genus) and quantified by percentage cover for every individual (solitary taxa) or colony (colonial taxa) occurring in each panel. Species were identified as native or non-native to the region following the World Register of Introduced Marine Species [WRiMS](https://www.marinespecies.org/introduced/) and literature sources. We were unable to classify Ciona spp. as native or non-native due to overlap between the native species Ciona intestinals and the introduced Ciona robusta in this area of their geographical distributions - differentiating between the two species requires genetic analyses and / or dissections. Colonies or individuals that were heavily overgrown and clearly smothered by other encrusting taxa were assumed to be non-functional and were not counted. However, due to the 3-dimensional nature of the panels some percentage cover exceeded 100.
+Using ImageJ software, photographs were analysed to identify species' spatial coverage.  Sessile organisms were identified to the lowest taxonomic level (predominantly to species level, but if not possible, to genus) and quantified by percentage cover for every individual (solitary taxa) or colony (colonial taxa) occurring in each panel. Species were identified as native or non-native to the region following the World Register of Introduced Marine Species [WRiMS](https://www.marinespecies.org/introduced/) and literature sources. We were unable to classify Ciona spp. as native or non-native due to overlap between the native species _Ciona intestinals_ and the introduced _Ciona robusta_ in this area of their geographical distributions - differentiating between the two species requires genetic analyses and / or dissections. Colonies or individuals that were heavily overgrown and clearly smothered by other encrusting taxa were assumed to be non-functional and were not counted. However, due to the 3-dimensional nature of the panels some percentage cover exceeded 100.
 
 To explore relative differences in the response of species to environmental fluctuations, species percentage cover was standardised and scaled according to their maximum.
 
@@ -61,12 +61,12 @@ Here is a visual of the raw data
 
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Raw_biotic.png?raw=true)
 
-This figure shows a stacked plot showing raw data of species percentage cover across individual panels. Native (grey) and non-native (red) species identified at (a) Millbay and (b) Queen Anne’s Battery over the 2-year sampling period.
+This figure shows a stacked plot showing raw data of species percentage cover across individual panels. Native (grey) and non-native (red) species identified at (a) Millbay and (b) Queen Anne’s Battery over the 2-year sampling period. It should be noted that _Ciona spp_ was calculated as native for this figure.
 
 Next I reduced the number of replications. Currently, there are multiple panels. I grouped across the panel ladders and summed the scaled abundance. This gave me 5 replicates per time point. Then with the species categorised, I grouped according the native/NNS status.
 With these data I created a figure showing the change of scaled cover per native vs NNS over time.
 
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Native_NNS_scaled.png?raw=true)
 
-The figure above shows the scaled species cover averaged for all native (grey) and non-native (red) species, a) Millbay Marina and, b) Queens Anne's Battery Marina. Shaded area shows 95% confidence intervals.
+The figure above shows the scaled species cover averaged for all native (grey) and non-native (red) species, a) Millbay Marina and, b) Queens Anne's Battery Marina. Shaded area shows 95% confidence intervals. _Ciona spp_ was removed for this figure to show only the identifiable species status.
 
