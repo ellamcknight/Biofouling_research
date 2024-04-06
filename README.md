@@ -59,5 +59,7 @@ To explore relative differences in the response of species to environmental fluc
 
 Here is a visual of the raw data
 
+![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Raw_biotic.png?raw=true)
 
+This figure shows a stacked plot showing raw data of species percentage cover across individual panels. Native (grey) and non-native (red) species identified at (a) Millbay and (b) Queen Anne’s Battery over the 2-year sampling period.
 
