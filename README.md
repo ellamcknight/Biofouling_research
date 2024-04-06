@@ -47,7 +47,7 @@ Finally, additional columns were added to this data frame. Date, site etc
 
 ## Biological data
 
-Using ImageJ software, photographs were analysed to identify species' spatial coverage.  Sessile organisms were identified to the lowest taxonomic level (predominantly to species level, but if not possible, to genus) and quantified by percentage cover for every individual (solitary taxa) or colony (colonial taxa) occurring in each panel. Species were identified as native or non-native to the region following the World Register of Introduced Marine Species [WRiMS](https://www.marinespecies.org/introduced/) and literature sources. We were unable to classify Ciona spp. as native or non-native due to overlap between the native species _Ciona intestinals_ and the introduced _Ciona robusta_ in this area of their geographical distributions - differentiating between the two species requires genetic analyses and / or dissections. Colonies or individuals that were heavily overgrown and clearly smothered by other encrusting taxa were assumed to be non-functional and were not counted. However, due to the 3-dimensional nature of the panels some percentage cover exceeded 100.
+Using ImageJ software, photographs were analysed to identify species' spatial coverage.  Sessile organisms were identified to the lowest taxonomic level (predominantly to species level, but if not possible, to genus) and quantified by percentage cover for every individual (solitary taxa) or colony (colonial taxa) occurring in each panel. Species were identified as native or non-native to the region following the World Register of Introduced Marine Species [WRiMS](https://www.marinespecies.org/introduced/) and literature sources. We were unable to classify _Ciona spp_. as native or non-native due to overlap between the native species _Ciona intestinals_ and the introduced _Ciona robusta_ in this area of their geographical distributions - differentiating between the two species requires genetic analyses and / or dissections. Colonies or individuals that were heavily overgrown and clearly smothered by other encrusting taxa were assumed to be non-functional and were not counted. However, due to the 3-dimensional nature of the panels some percentage cover exceeded 100.
 
 To explore relative differences in the response of species to environmental fluctuations, species percentage cover was standardised and scaled according to their maximum.
 
@@ -69,4 +69,8 @@ With these data I created a figure showing the change of scaled cover per native
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Native_NNS_scaled.png?raw=true)
 
 The figure above shows the scaled species cover averaged for all native (grey) and non-native (red) species, a) Millbay Marina and, b) Queens Anne's Battery Marina. Shaded area shows 95% confidence intervals. _Ciona spp_ was removed for this figure to show only the identifiable species status.
+
+Next I looked at the dominant species: _Ascidiella aspersa_, _Ciona spp_, _Watersipora subatra_, _Tricellaria inopinata_. Here I looked at the percentage cover over time. I also added the sampling points; the dates at which the photographs were taken.
+
+![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Dominant%20species.png?raw=true)
 
