@@ -63,3 +63,10 @@ Here is a visual of the raw data
 
 This figure shows a stacked plot showing raw data of species percentage cover across individual panels. Native (grey) and non-native (red) species identified at (a) Millbay and (b) Queen Anne’s Battery over the 2-year sampling period.
 
+Next I reduced the number of replications. Currently, there are multiple panels. I grouped across the panel ladders and summed the scaled abundance. This gave me 5 replicates per time point. Then with the species categorised, I grouped according the native/NNS status.
+With these data I created a figure showing the change of scaled cover per native vs NNS over time.
+
+![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Native_NNS_scaled.png?raw=true)
+
+The figure above shows the scaled species cover averaged for all native (grey) and non-native (red) species, a) Millbay Marina and, b) Queens Anne's Battery Marina. Shaded area shows 95% confidence intervals.
+
