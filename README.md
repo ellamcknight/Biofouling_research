@@ -101,6 +101,6 @@ NNS GAMM
 'Ciona spp' Gamm
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Ciona_gamm.png?raw=true)
 
-
+Now to visualise the model outputs better!
 
 
