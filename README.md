@@ -63,14 +63,14 @@ Here is a visual of the raw data
 
 This figure shows a stacked plot showing raw data of species percentage cover across individual panels. Native (grey) and non-native (red) species identified at (a) Millbay and (b) Queen Anne’s Battery over the 2-year sampling period. It should be noted that _Ciona spp_ was calculated as native for this figure.
 
-Next I reduced the number of replications. Currently, there are multiple panels. I grouped across the panel ladders and summed the scaled abundance. This gave me 5 replicates per time point. Then with the species categorised, I grouped according the native/NNS status.
+Next, I reduced the number of replications. Currently, there are multiple panels across the grids (grid is a ladder structure that held 6 panels each, there were 5 grids). I grouped them according to grids and then summed the scaled percentage cover. This gave me 5 replicates per time point. Then with the species categorised, they were grouped according to the native/NNS status.
 With these data I created a figure showing the change of scaled cover per native vs NNS over time.
 
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Native_NNS_scaled.png?raw=true)
 
 The figure above shows the scaled species cover averaged for all native (grey) and non-native (red) species, a) Millbay Marina and, b) Queens Anne's Battery Marina. Shaded area shows 95% confidence intervals. _Ciona spp_ was removed for this figure to show only the identifiable species status.
 
-Next I looked at the dominant species: _Ascidiella aspersa_, _Ciona spp_, _Watersipora subatra_, _Tricellaria inopinata_. Here I looked at the percentage cover over time. I also added the sampling points; the dates at which the photographs were taken.
+Next, I looked at the dominant species: _Ascidiella aspersa_, _Ciona spp_, _Watersipora subatra_, _Tricellaria inopinata_. Here I looked at the percentage cover over time. I also added the sampling points; the dates at which the photographs were taken.
 
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Dominant%20species.png?raw=true)
 
