@@ -86,3 +86,12 @@ The formula code:
 `mod <- gamm(Change ~ Site + Status + s(month, bs = "cc", k=6) + s(TempDiff) + s(SalResDiff) + s(RainDiff), random=list(Site=~1,Position=~1), method = 'REML', correlation = corARMA(form = ~ 1|DayCount, p = 1), data = alldat, knots = list(month = c(1, 12)))`
 
 Variables were step-wise deleted based on significance. 
+
+The full model produced this output:
+![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Gamm_full_mod.png?raw=true)
+
+The above shows the best regression spline for the significant variables. Month, Temperature and salinity were all significant. Nativeness was not a significant factor, however, I wanted to explore these patterns in more detail as the model output does not separate the splines based on the fixed factor and I believe patterns are being lost in this model.
+
+
+
+
