@@ -74,3 +74,13 @@ Next, I looked at the dominant species: _Ascidiella aspersa_, _Ciona spp_, _Wate
 
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Dominant%20species.png?raw=true)
 
+## Generalised Additive Mixed Models
+
+All the data was combined. The difference in percentage cover per native/NNS/ciona spp on each replicate was calculated and noted as a change column. This change was used to understand what effect the change in environmental variables hand on the percentage cover of species.
+
+First a model was ran on all the data. This included Site and Status (whether species are native, NNS or Ciona) as fixed factors and replicate was nested inside Site and added as random factors.
+The code was `mod <- gamm(Change ~ Site + Status + s(month, bs = "cc") + s(TempDiff) + s(SalResDiff) + s(RainDiff),
+              random=list(Site=~1,Position=~1), method = 'REML',
+              correlation = corARMA(form = ~ 1|DayCount, p = 1),
+              data = alldat,
+              knots = list(month = c(1, 12)))`
