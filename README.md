@@ -92,6 +92,15 @@ The full model produced this output:
 
 The above shows the best regression spline for the significant variables. Month, Temperature and salinity were all significant. Nativeness was not a significant factor, however, I wanted to explore these patterns in more detail as the model output does not separate the splines based on the fixed factor and I believe patterns are being lost in this model.
 
+Native species GAMM 
+![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Native_Gamm.png?raw=true)
+
+NNS GAMM
+![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/NNS_gamm.png?raw=true)
+
+'Ciona spp' Gamm
+![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Ciona_gamm.png?raw=true)
+
 
 
 
