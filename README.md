@@ -114,4 +114,17 @@ Altogether:
 
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Gamm_month_together.png?raw=true)
 
+The above shows the output for species change over time modelling all of the data.
+
+Temperature change _vs_ species change:
+
+![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Gamm_temp_allspp.png?raw=true)
+
+The above figure shows the temporal trend of species cover for native, non-native and _Cion spp_ species analysed with Generalised Additive Mixed Models, splines were taken from each separate model. The solid lines represent the best regression splines, and the shadowed line is the confidence interval at 95%. Patterns of species cover are compared to changes in temperature.
+
+Salinity change _vs_ species change
+
+![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Gamm_salinity_allspp.png?raw=true)
+
+The above figure shows the temporal trend of species cover for native, non-native and _Cion spp_ species analysed with Generalised Additive Mixed Models, splines were taken from each separate model. The solid lines represent the best regression splines, and the shadowed line is the confidence interval at 95%. Patterns of species cover are compared to changes in salinity (residuals). I think this graph might be better as 3 separate figures.
 
