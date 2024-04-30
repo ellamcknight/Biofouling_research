@@ -79,9 +79,9 @@ Next, I looked at the dominant species: _Ascidiella aspersa_, _Ciona spp_, _Wate
 
 At this point all the data was combined. The difference in percentage cover per native/NNS/ciona spp on each replicate was calculated and noted as a change column. 
 
-For the GAMMs, species cover was evaluated as a function of the environmental variables and nativeness (native or NNS or Ciona) was used as a fixed effect. Trends in cover were modeled as non-linear via smooth functions using penalized regression splines with minimum salinity, mean temperature and total precipitation. A stepwise deletion process was used by first reducing non-significant smooth parameters to a linear term, if a linear term was found to be non-significant then the parameter was removed from the model and the process was repeated. We included random effects of ‘grid’ nested in ‘site’ (see Fig. 1a), and month was modelled with a cyclic cubic spline (i.e., the temperature in
-January is aligned with the temperature at the end of December). For this temporal spline the basic dimensions were constrained for the smoothing functions (Santana et al. 2012), this allowed the natural cycle of seasons to be accounted for but left the additional variability to be explained by salinity, temperature or precipitation that fell outside the typical seasonal pattern. An autocorrelation
-term was added to the model because the experimental design consisted of repeated measures. Day count (number of days since the experiment began) and temporal autocorrelation was modeled by fitting an auto-regressive moving average model (ARMA) to the residuals. The number of auto-regressive parameters were specified as p = 1 therefore modelling neighbouring days, and the ARMA was nested within each day count.
+For the GAMMs, species cover was evaluated as a function of the environmental variables and nativeness (native or NNS or Ciona) was used as a fixed effect. Trends in cover were modelled as non-linear via smooth functions using penalized regression splines with minimum salinity, mean temperature and total precipitation. A stepwise deletion process was used by first reducing non-significant smooth parameters to a linear term, if a linear term was found to be non-significant then the parameter was removed from the model and the process was repeated. We included random effects of ‘grid’ nested in ‘site’ (see Fig. 1a), and month was modelled with a cyclic cubic spline (i.e., the temperature in
+January is aligned with the temperature at the end of December). For this temporal spline, the basic dimensions were constrained for the smoothing functions (Santana et al. 2012), this allowed the natural cycle of seasons to be accounted for but left the additional variability to be explained by salinity, temperature or precipitation that fell outside the typical seasonal pattern. An autocorrelation
+term was added to the model because the experimental design consisted of repeated measures. Day count (number of days since the experiment began) and temporal autocorrelation were modelled by fitting an auto-regressive moving average model (ARMA) to the residuals. The number of auto-regressive parameters were specified as p = 1 therefore modelling neighbouring days, and the ARMA was nested within each day count.
 
 The full formula code prior to the step-wise deletion:
 `mod <- gamm(Change ~ Site + Status + s(month, bs = "cc", k=6) + s(TempDiff) + s(SalResDiff) + s(RainDiff), random=list(Site=~1,Position=~1), method = 'REML', correlation = corARMA(form = ~ 1|DayCount, p = 1), data = alldat, knots = list(month = c(1, 12)))`
@@ -110,6 +110,8 @@ Visualisations??
 
 Temporal trend of species cover for native, non-native and _Cion spp_ species analysed with Generalised Additive Mixed Models. Positive direction on the y-axis indicates an increase and negative indicates a decrease. Natives (black), non-natives (red) and _Cion spp_ (blue) are shown with sites combined. The solid line represents the best regression spline, and the shadowed line is the confidence interval at 95%. Patterns of species cover are compared to changes over time.
 
+Altogether:
 
+![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Gamm_month_together.png?raw=true)
 
 
