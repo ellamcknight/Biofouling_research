@@ -99,7 +99,7 @@ Native species GAMM
 NNS GAMM
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/NNS_gamm.png?raw=true)
 
-'Ciona spp' Gamm
+_Ciona spp_ Gamm
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Ciona_gamm.png?raw=true)
 
 For each of the above models (native, NNS and Ciona spp data), each model found month, temperature, and salinity to be significant. However, there does seem to be some differences in the final patterns of the splines when compared. Primarily the _Cion spp_ found temperature to have a negative linear relationship with the species cover change
