@@ -83,12 +83,12 @@ For the GAMMs, species cover was evaluated as a function of the environmental va
 January is aligned with the temperature at the end of December). For this temporal spline the basic dimensions were constrained for the smoothing functions (Santana et al. 2012), this allowed the natural cycle of seasons to be accounted for but left the additional variability to be explained by salinity, temperature or precipitation that fell outside the typical seasonal pattern. An autocorrelation
 term was added to the model because the experimental design consisted of repeated measures. Day count (number of days since the experiment began) and temporal autocorrelation was modeled by fitting an auto-regressive moving average model (ARMA) to the residuals. The number of auto-regressive parameters were specified as p = 1 therefore modelling neighbouring days, and the ARMA was nested within each day count.
 
-The formula code:
+The full formula code prior to the step-wise deletion:
 `mod <- gamm(Change ~ Site + Status + s(month, bs = "cc", k=6) + s(TempDiff) + s(SalResDiff) + s(RainDiff), random=list(Site=~1,Position=~1), method = 'REML', correlation = corARMA(form = ~ 1|DayCount, p = 1), data = alldat, knots = list(month = c(1, 12)))`
 
 Variables were step-wise deleted based on significance. 
 
-The full model produced this output:
+The full model produced this output (base plots):
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Gamm_full_mod.png?raw=true)
 
 The above shows the best regression spline for the significant variables. Month, Temperature and salinity were all significant. Nativeness was not a significant factor, however, I wanted to explore these patterns in more detail as the model output does not separate the splines based on the fixed factor and I believe patterns are being lost in this model.
@@ -102,6 +102,12 @@ NNS GAMM
 'Ciona spp' Gamm
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Ciona_gamm.png?raw=true)
 
-Now to visualise the model outputs !
+Visualisations??
+
+![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Gamms_month_sep_species.png?raw=true)
+
+Temporal trend of species cover for native, non-native and _Cion spp_ species analysed with Generalised Additive Mixed Models. Positive direction on the y-axis indicates an increase and negative indicates a decrease. Natives (black), non-natives (red) and _Cion spp_ (blue) are shown with sites combined. The solid line represents the best regression spline, and the shadowed line is the confidence interval at 95%. Patterns of species cover are compared to changes over time.
+
+
 
 
