@@ -91,7 +91,7 @@ Variables were step-wise deleted based on significance.
 The full model produced this output (base plots):
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Gamm_full_mod.png?raw=true)
 
-The above shows the best regression spline for the significant variables. Month, Temperature and salinity were all significant. Nativeness was not a significant factor, however, I wanted to explore these patterns in more detail as the model output does not separate the splines based on the fixed factor and I believe patterns are being lost in this model.
+The above shows the best regression spline for the significant variables. Month, temperature and salinity were all significant. Nativeness was not a significant factor, however, I wanted to explore these patterns in more detail as the model output does not separate the splines based on the fixed factor and I believe patterns are being lost in this model.
 
 Native species GAMM 
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Native_Gamm.png?raw=true)
@@ -101,6 +101,8 @@ NNS GAMM
 
 'Ciona spp' Gamm
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Ciona_gamm.png?raw=true)
+
+For each of the above models (native, NNS and Ciona spp data), each model found month, temperature, and salinity to be significant. However, there does seem to be some differences in the final patterns of the splines when compared. Primarily the _Cion spp_ found temperature to have a negative linear relationship with the species cover change
 
 Visualisations??
 
