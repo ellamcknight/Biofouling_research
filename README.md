@@ -11,6 +11,7 @@ We deployed settlement panels in two locations in Plymouth Water (Millbay & Quee
 ## Analytical Techniques 
 <pre>
 ◾ R 
+◾ Visualisations
 ◾ Generalised Additive Mixed Models
 ◾ Non-Metric Multidimensional scaling
 </pre>
@@ -101,6 +102,6 @@ NNS GAMM
 'Ciona spp' Gamm
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Ciona_gamm.png?raw=true)
 
-Now to visualise the model outputs better!
+Now to visualise the model outputs !
 
 
