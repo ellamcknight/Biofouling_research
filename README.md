@@ -77,8 +77,8 @@ Next, I looked at the dominant species: _Ascidiella aspersa_, _Ciona spp_, _Wate
 
 At this point all the data was combined. The difference in percentage cover per native/NNS/ciona spp on each replicate was calculated and noted as a change column. 
 
-For the GAMMs, species cover was evaluated as a function of the environmental variables and nativeness (native or NNS or Ciona) was used as a fixed effect. Trends in cover were modelled as non-linear via smooth functions using penalized regression splines with minimum salinity, mean temperature and total precipitation. A stepwise deletion process was used by first reducing non-significant smooth parameters to a linear term, if a linear term was found to be non-significant then the parameter was removed from the model and the process was repeated. We included random effects of ‘grid’ nested in ‘site’ (see Fig. 1a), and month was modelled with a cyclic cubic spline (i.e., the temperature in
-January is aligned with the temperature at the end of December). For this temporal spline, the basic dimensions were constrained for the smoothing functions (Santana et al. 2012), this allowed the natural cycle of seasons to be accounted for but left the additional variability to be explained by salinity, temperature or precipitation that fell outside the typical seasonal pattern. An autocorrelation
+For the GAMMs, species cover was evaluated as a function of the environmental variables and nativeness (native or NNS or Ciona) was used as a fixed effect. Trends in cover were modelled as non-linear via smooth functions using penalized regression splines with minimum salinity, mean temperature and total precipitation. A stepwise deletion process was used by first reducing non-significant smooth parameters to a linear term, if a linear term was found to be non-significant then the parameter was removed from the model and the process was repeated. We included random effects of ‘grid’ nested in ‘site’, and month was modelled with a cyclic cubic spline (i.e., the temperature in
+January is aligned with the temperature at the end of December). For this temporal spline, the basic dimensions were constrained for the smoothing functions, this allowed the natural cycle of seasons to be accounted for but left the additional variability to be explained by salinity, temperature or precipitation that fell outside the typical seasonal pattern. An autocorrelation
 term was added to the model because the experimental design consisted of repeated measures. Day count (number of days since the experiment began) and temporal autocorrelation were modelled by fitting an auto-regressive moving average model (ARMA) to the residuals. The number of auto-regressive parameters were specified as p = 1 therefore modelling neighbouring days, and the ARMA was nested within each day count.
 
 The full formula code prior to the step-wise deletion:
@@ -130,14 +130,14 @@ The above figure shows the temporal trend of species cover for native, non-nativ
 
 ## Non-Metric Multidimensional scaling
 
-Multidimensional scaling was used to analyse community composition and distributions within the package ‘vegan’. To investigate the trajectory of the community structure through time, species were averaged across all grids to produce one sample point, per time and per site, then constructed into a Bray-Curtis dissimilarity matrix using 9999 permutations of the data (Bray and Curtis 1957). Non-metric multidimensional scaling was used as an ordination technique to graphically represent the temporal community composition.
+Multidimensional scaling was used to analyse community composition and distributions within the package ‘vegan’. To investigate the trajectory of the community structure through time, species were averaged across all grids to produce one sample point, per time and per site, then constructed into a Bray-Curtis dissimilarity matrix using 9999 permutations of the data. Non-metric multidimensional scaling was used as an ordination technique to graphically represent the temporal community composition.
 
 The below shows Multi-Dimensional Scaling plots of Bray-Curtis similarities of community structure for both sites are shown with trajectory of temporal development. Colours show Queen Anne’s Battery as blue triangles and Millbay as grey circles.
 The patterns show that succession is slow and as the community develops it never returns to the original state (barren panels). There are some large changes between data points where the direction and position shift. This represents an extreme change in the community composition. Also, there are numerous points clustered together, these representing time points where the community assemblage remained somewhat similar.
 
-To be added maps of the sites...
-
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/NMDS.png?raw=true)
+
+To be added maps of the sites...
 
 
 
