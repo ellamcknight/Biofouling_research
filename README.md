@@ -126,5 +126,16 @@ Salinity change _vs_ species change
 
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Gamm_salinity_allspp.png?raw=true)
 
-The above figure shows the temporal trend of species cover for native, non-native and _Cion spp_ species analysed with Generalised Additive Mixed Models, splines were taken from each separate model. The solid lines represent the best regression splines, and the shadowed line is the confidence interval at 95%. Patterns of species cover are compared to changes in salinity (residuals). I think this graph might be better as 3 separate figures.
+The above figure shows the temporal trend of species cover for native, non-native and _Cion spp_ species analysed with Generalised Additive Mixed Models, splines were taken from each separate model. The solid lines represent the best regression splines, and the shadowed line is the confidence interval at 95%. Patterns of species cover are compared to changes in salinity (residuals). I think this graph might be better as 3 separate figures. The figures show there is a difference in the regression splines (although not statistically significant) between the species types. 
+
+## Non-Metric Multidimensional scaling
+
+Multidimensional scaling was used to analyse community composition and distributions within the package ‘vegan’. To investigate the trajectory of the community structure through time, species were averaged across all grids to produce one sample point, per time and per site, then constructed into a Bray-Curtis dissimilarity matrix using 9999 permutations of the data (Bray and Curtis 1957). Non-metric multidimensional scaling was used as an ordination technique to graphically represent the temporal community composition.
+
+The below shows Multi-Dimensional Scaling plots of Bray-Curtis similarities of community structure for both sites are shown with trajectory of temporal development. Colours show Queen Anne’s Battery as blue triangles and Millbay as grey circles.
+The patterns show that succession is slow and as the community develops it never returns to the original state. There are some large changes between data points where the direction and position shift. This represents an extreme change in the community composition. Also there are numerous point clustered together. This represents time points where the community assemblage remained somewhat similar across time. 
+
+![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/NMDS.png?raw=true)
+
+
 
