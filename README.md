@@ -86,7 +86,9 @@ term was added to the model because the experimental design consisted of repeate
 The full formula code prior to the step-wise deletion:
 `mod <- gamm(Change ~ Site + Status + s(month, bs = "cc", k=6) + s(TempDiff) + s(SalResDiff) + s(RainDiff), random=list(Site=~1,Position=~1), method = 'REML', correlation = corARMA(form = ~ 1|DayCount, p = 1), data = alldat, knots = list(month = c(1, 12)))`
 
-Variables were step-wise deleted based on significance. 
+Variables were step-wise deleted based on significance. Below is the summary output.
+
+![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/GAMM_alldat_output.png?raw=true)
 
 The full model produced this output (base plots):
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Gamm_full_mod.png?raw=true)
