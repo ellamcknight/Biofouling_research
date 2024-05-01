@@ -133,7 +133,9 @@ The above figure shows the temporal trend of species cover for native, non-nativ
 Multidimensional scaling was used to analyse community composition and distributions within the package ‘vegan’. To investigate the trajectory of the community structure through time, species were averaged across all grids to produce one sample point, per time and per site, then constructed into a Bray-Curtis dissimilarity matrix using 9999 permutations of the data (Bray and Curtis 1957). Non-metric multidimensional scaling was used as an ordination technique to graphically represent the temporal community composition.
 
 The below shows Multi-Dimensional Scaling plots of Bray-Curtis similarities of community structure for both sites are shown with trajectory of temporal development. Colours show Queen Anne’s Battery as blue triangles and Millbay as grey circles.
-The patterns show that succession is slow and as the community develops it never returns to the original state. There are some large changes between data points where the direction and position shift. This represents an extreme change in the community composition. Also, there are numerous points clustered together. This represents time points where the community assemblage remained somewhat similar across time. 
+The patterns show that succession is slow and as the community develops it never returns to the original state (barren panels). There are some large changes between data points where the direction and position shift. This represents an extreme change in the community composition. Also, there are numerous points clustered together, these representing time points where the community assemblage remained somewhat similar.
+
+To be added maps of the sites...
 
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/NMDS.png?raw=true)
 
