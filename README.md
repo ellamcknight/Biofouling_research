@@ -1,6 +1,6 @@
 # Biofouling research
 
-### *Research from chapter 4 of my PhD* 😃
+### *Research from chapter 4 of my PhD* 
 
 This research investigates contemporary climate change and non-native species in marine brackish ecosystems. Here, the focus is on extreme events such as warming and freshening (a sudden decline in salinity). 
 With increased rainfall possibly altering the dynamics of tidal and riverine ebb and flow oscillations, this research set out to understand the repercussions on biofouling communities.
@@ -12,7 +12,7 @@ We deployed settlement panels in two locations in Plymouth Water (Millbay & Quee
 <pre>
 ◾ R 
 ◾ Visualisations
-◾ Generalised Additive Mixed Models
+◾ Generalised Additive Mixed Model with autocorrelation term
 ◾ Non-Metric Multidimensional scaling
 </pre>
 
