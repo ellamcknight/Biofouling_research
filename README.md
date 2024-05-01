@@ -42,9 +42,7 @@ Below shows the data for Queen Anne's Battery. Sample points plus the calculated
 
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Environs_differenced.png?raw=true)
 
-Finally, additional columns were added to this data frame. Date, site etc
-  month? season? add cols? row 332
-
+Finally, additional columns were added to this data frame. 
 
 ## Biological data
 
@@ -93,7 +91,7 @@ Variables were step-wise deleted based on significance. Below is the summary out
 The full model produced this output (base plots):
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Gamm_full_mod.png?raw=true)
 
-The above shows the best regression spline for the significant variables. Month, temperature and salinity were all significant. Nativeness was not a significant factor, however, I wanted to explore these patterns in more detail as the model output does not separate the splines based on the fixed factor and I believe patterns are being lost in this model.
+The above shows the best regression spline for the significant variables. Month, temperature and salinity were all significant. Nativeness (native, NNS and Ciona) were not significantly different from each other, however, I wanted to explore these factors in more detail as the model output does not separate the splines based on the fixed factor and I believe patterns are being lost in this model.
 
 Native species GAMM 
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Native_Gamm.png?raw=true)
@@ -135,7 +133,7 @@ The above figure shows the temporal trend of species cover for native, non-nativ
 Multidimensional scaling was used to analyse community composition and distributions within the package ‘vegan’. To investigate the trajectory of the community structure through time, species were averaged across all grids to produce one sample point, per time and per site, then constructed into a Bray-Curtis dissimilarity matrix using 9999 permutations of the data (Bray and Curtis 1957). Non-metric multidimensional scaling was used as an ordination technique to graphically represent the temporal community composition.
 
 The below shows Multi-Dimensional Scaling plots of Bray-Curtis similarities of community structure for both sites are shown with trajectory of temporal development. Colours show Queen Anne’s Battery as blue triangles and Millbay as grey circles.
-The patterns show that succession is slow and as the community develops it never returns to the original state. There are some large changes between data points where the direction and position shift. This represents an extreme change in the community composition. Also there are numerous point clustered together. This represents time points where the community assemblage remained somewhat similar across time. 
+The patterns show that succession is slow and as the community develops it never returns to the original state. There are some large changes between data points where the direction and position shift. This represents an extreme change in the community composition. Also, there are numerous points clustered together. This represents time points where the community assemblage remained somewhat similar across time. 
 
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/NMDS.png?raw=true)
 
