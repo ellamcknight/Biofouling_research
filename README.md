@@ -126,7 +126,7 @@ Salinity change _vs_ species change
 
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/Gamm_salinity_allspp.png?raw=true)
 
-The above figure shows the temporal trend of species cover for native, non-native and _Cion spp_ species analysed with Generalised Additive Mixed Models, splines were taken from each separate model. The solid lines represent the best regression splines, and the shadowed line is the confidence interval at 95%. Patterns of species cover are compared to changes in salinity (residuals). I think this graph might be better as 3 separate figures. The figures show there is a difference in the regression splines (although not statistically significant) between the species types. 
+The above figure shows the temporal trend of species cover for native, non-native and _Cion spp_ species analysed with Generalised Additive Mixed Models, splines were taken from each separate model. The solid lines represent the best regression splines, and the shadowed line is the confidence interval at 95%. Patterns of species cover are compared to changes in salinity (residuals). This graph might be better as 3 separate figures. The figures show there is a difference in the regression splines (although not statistically significant) between the species types. _Discuss the interpretation_
 
 ## Non-Metric Multidimensional scaling
 
@@ -137,7 +137,7 @@ The patterns show that succession is slow and as the community develops it never
 
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/NMDS.png?raw=true)
 
-To be added maps of the sites...
+To be added: maps
 
 
 
