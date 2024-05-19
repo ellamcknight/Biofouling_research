@@ -137,7 +137,7 @@ The patterns show that succession is slow and as the community develops it never
 
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/NMDS.png?raw=true)
 
-To be added: maps
+To be added: map of sites and panels
 
 
 
