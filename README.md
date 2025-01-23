@@ -26,7 +26,7 @@ The figure below shows a daily summary of a) minimum salinity, Millbay: grey & Q
 
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/environs.png?raw=true)
 
-To correct the salinity data I modelled salinity over time, extracted the residuals and incorporated these data into the model. There were also periods of erroneous data due to metre malfunctioning causing the data to flat line at zero; these data were removed. Below are the salinity residuals from running a linear regression on the salinity measurements for (a) Millbay and (b) Queen Anne’s Battery. These data were implemented into the Generalised Additive Mixed Models.
+To correct the salinity data, it was modelled over time and the residuals were extracted; these data were incorporated into the model. There were also periods of erroneous data due to metre malfunctioning causing the data to flat line at zero; these data were removed. Below are the salinity residuals from running a linear regression on the salinity measurements for (a) Millbay and (b) Queen Anne’s Battery. These data were implemented into the Generalised Additive Mixed Models.
 
 ![alt text](https://github.com/ellamcknight/Biofouling_research/blob/main/Images/residuals.png?raw=true)
 
