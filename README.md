@@ -12,7 +12,7 @@ We deployed settlement panels in two locations in Plymouth Water (Millbay & Quee
 <pre>
 ◾ R 
 ◾ Visualisations
-◾ Generalised Additive Mixed Model with autocorrelation term
+◾ Generalised Additive Mixed Model with autocorrelation terms
 ◾ Non-Metric Multidimensional scaling
 </pre>
 
